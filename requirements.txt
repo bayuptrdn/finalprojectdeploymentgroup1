@@ -1,9 +1,17 @@
-streamlit
-pandas
-numpy
-scikit-learn
-xgboost
-plotly
-matplotlib
-seaborn
+# --- Core data libraries ---
+pandas==1.5.3
+numpy==1.23.5
+scikit-learn==1.2.2
+xgboost==1.7.6
+
+# --- Visualization ---
+plotly==6.3.1
+matplotlib==3.7.1
+seaborn==0.12.2
+
+# --- Web app ---
+streamlit==1.39.0
+
+# --- Optional but useful ---
+feature-engine==1.6.2
 
